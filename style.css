@@ -1,31 +1,91 @@
-
+html{
+	 background: url("https://vignette.wikia.nocookie.net/starzpower/images/0/0e/Community-header-background/revision/latest?cb=20190819065720") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 nav{
 	text-align: center;
 	font-family: 'Creepster', cursive;
+	
 }
 h1{
 	text-align: center;
 	color:white;
 	font-family: 'Creepster', cursive;
+	text-shadow: 2px 2px blue;
 	
 
 }
 img{
-	height: 350px;
-	display:block;
-	margin:auto;
+	width: 460px;
+}
+	
+
 }
 body{
-	background-color: black;
+	
 }
 p{
 	color:white;
 	text-align: center;
 	font-family: 'Tangerine', cursive;
+	font-size: 40px;
+	text-shadow: 2px 2px blue;
 
 }
-div{
-	display: flex;
-	align-items: flex-end;
+.hello{
+	display: -webkit-flex; /* Safari */
+  -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+  display: flex;  
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.main{
+	width: 800px;
+	margin: 0 auto;
+}
+
+.last {
+	display: block;
+	margin: 0 auto;
+}
+.home{
+	width: 500px;
+	margin: 0 auto;
+	
+}
+.about{
+	width: 500px;
+	margin: 0 auto;
 
 }
+
+.merch {
+	width: 400px;
+}
+
+.merch img {
+	margin: 0 auto;
+	display: block;
+}
+.footer{
+	color:white;
+}
+.gallery{
+	padding-top:70px;
+	width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.videos{
+	margin:0 auto;
+	width:50%;
+	text-align:center;
+}
+
